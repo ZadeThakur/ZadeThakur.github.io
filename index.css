@@ -3,11 +3,129 @@ html,body{
   width:100%;
   margin: 0px;
   padding: 0px;
+  font-family: 'Raleway', sans-serif;
 }
 .banner-image-box{
   height: 100%;
-  background-size: cover;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   background-image: url("image1.jpg");
   background-size: cover;
   background-position: center;
+  display: table;
+  text-align: center;
+}
+.banner-content{
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.portfolio-heading{
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  background-color: #E8E8E8;
+  display: table;
+}
+.portfolio-content{
+  display: table-cell;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: #808080;
+}
+.portfolio-content h2{
+  letter-spacing: 2px;
+  color: black;
+}
+.project{
+  background-color: #fffff1;
+  display: table;
+  text-align: center;
+  height:50%;
+}
+.project-content{
+  display: table-cell;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.codeButton{
+  width:100%;
+  border: 1px solid yellow;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  letter-spacing: 2px;
+  font-size: 150%;
+  background-color: white;
+}
+.onlineButton{
+  margin-top: 3%;
+  width:100%;
+  border: 1px solid teal;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  letter-spacing: 2px;
+  font-size: 150%;
+  background-color: white;
+}
+.lastProject{
+  background-color: #fffff1;
+  display: table;
+  text-align: center;
+  height:45%;
+}
+.aboutMe{
+  display: table;
+  text-align: center;
+  height:30%;
+  width:100%;
+}
+.aboutMe-content{
+  height:100%;
+  width:100%;
+  display: table-cell;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-image: url(image2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #808080;
+}
+.emailButton{
+  width:80%;
+  border: 1px solid #fffff1;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  letter-spacing: 2px;
+  font-size: 150%;
+  background-color: #E8E8E8;
+  color: #808080;
+  margin-bottom: 3%;
+}
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  background-color: #E8E8E8;
+  padding-bottom: 2%;
+}
+.socialMedia a{
+  text-align: center;
+  padding: 1%;
+  color:#808080;
+  text-decoration: none;
+}
+.footer{
+  background-color: #696969;
+  display: table;
+  text-align: center;
+}
+.footer-content{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0% 3% 0% 3%;
+}
+.footer-content a{
+  text-decoration: none;
+  color:#fffff1;
 }
