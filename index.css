@@ -10,11 +10,12 @@ html,body{
   width: 100%;
   margin: 0px;
   padding: 0px;
-  background-image: url("image1.jpg");
+  background-image: url("images/image1.jpg");
   background-size: cover;
   background-position: center;
   display: table;
   text-align: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 .banner-content{
   vertical-align: middle;
@@ -44,11 +45,16 @@ html,body{
   display: table;
   text-align: center;
   height:50%;
+  padding-bottom: 4%;
 }
 .project-content{
   display: table-cell;
   padding-left: 3%;
   padding-right: 3%;
+}
+.divider{
+  height: 2px;
+  background-color: #808080;
 }
 .codeButton{
   width:100%;
@@ -73,8 +79,8 @@ html,body{
   background-color: #fffff1;
   display: table;
   text-align: center;
-  height:45%;
-  padding-bottom:20px;
+  height:40%;
+  padding-bottom: 20px;
 }
 .aboutMe{
   display: table;
@@ -88,10 +94,11 @@ html,body{
   display: table-cell;
   padding-left: 3%;
   padding-right: 3%;
-  background-image: url(image2.jpg);
+  background-image: url("images/image2.jpg");
   background-size: cover;
   background-position: center;
   color: #808080;
+  vertical-align: middle;
 }
 .emailButton{
   width:80%;
@@ -120,6 +127,7 @@ html,body{
   background-color: #696969;
   display: table;
   text-align: center;
+  width: 100%;
 }
 .footer-content{
   display: table-cell;
@@ -129,4 +137,178 @@ html,body{
 .footer-content a{
   text-decoration: none;
   color:#fffff1;
+}
+@media only screen and (min-width: 768px){
+
+  .banner-content{
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 20px;
+  }
+
+  .portfolio-content{
+    display: table-cell;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #808080;
+    font-size: 23px;
+  }
+
+  .project{
+    background-color: #fffff1;
+    display: table;
+    text-align: center;
+    height:45%;
+    padding-bottom: 4%;
+  }
+
+  .project-content{
+    display: table-cell;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 23px;
+  }
+
+  .divider{
+    height: 2px;
+    background-color: #808080;
+  }
+
+  .aboutMe-content{
+    height:100%;
+    width:100%;
+    display: table-cell;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-image: url("images/image2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #808080;
+    font-size: 23px;
+  }
+  .socialMedia{
+    display: flex;
+    justify-content: center;
+    background-color: #E8E8E8;
+    padding-bottom: 2%;
+    font-size: 23px;
+  }
+  .footer-content{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0% 3% 0% 3%;
+    font-size: 23px;
+  }
+
+}
+
+@media only screen and (min-width: 1000px){
+
+  .banner-content{
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 30px;
+  }
+  .portfolio-heading{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    background-color: #E8E8E8;
+    display: table;
+  }
+  .portfolio-content{
+    display: table-cell;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #808080;
+    vertical-align: middle;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .project{
+    background-color: #fffff1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:55%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+  }
+  .project div{
+    width:50%;
+    height:110%;
+  }
+
+  .project-content{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 23px;
+  }
+  .lastProject{
+    background-color: #fffff1;
+    display: flex;
+    text-align: center;
+    height:55%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+  }
+  .lastProject div{
+    width:50%;
+    height:115%;
+    background-repeat: no-repeat;
+  }
+  .projectImage1{
+    background-image: url("images/image3.jpg");
+  }
+  .projectImage2{
+    background-image: url("images/image4.jpg");
+    padding-right: 6%;
+  }
+  .projectImage3{
+    background-image: url("images/image5.jpg");
+  }
+  .projectImage4{
+    background-image: url("images/image6.jpg");
+    padding-right: 6%;
+  }
+  .projectImage5{
+    background-image: url("images/image7.jpg");
+    padding-right: 6%;
+  }
+  .projectImage6{
+    background-image: url("images/image3.jpg");
+  }
+  .aboutMe{
+    display: table;
+    text-align: center;
+    height:60%;
+    width:100%;
+  }
+  .emailButton{
+    width:20%;
+    border: 1px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    letter-spacing: 2px;
+    font-size: 150%;
+    background-color: #E8E8E8;
+    color: #808080;
+    margin-bottom: 2%;
+  }
+  .footer{
+    background-color: #696969;
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+  }
+  button:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1000px #F8F8F8;
+  }
+
 }
