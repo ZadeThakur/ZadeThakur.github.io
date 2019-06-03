@@ -73,7 +73,8 @@ html,body{
   background-color: #fffff1;
   display: table;
   text-align: center;
-  height:45%;
+  height:40%;
+  padding-bottom:20px;
 }
 .aboutMe{
   display: table;
